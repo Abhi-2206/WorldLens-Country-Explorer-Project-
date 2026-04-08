@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+    <h1>🌍 My Country Project</h1>
+    
+    <div id="dream-container" style="background: #e67e22; padding: 15px; margin-bottom: 20px; border-radius: 5px; text-align: left;">
+        <strong>Your Dream Destinations:</strong>
+        <ul id="dream-list" style="margin-top: 10px;">
+            <li>None yet!</li>
+        </ul>
+    </div>
+
+    <div class="controls">
+        <input type="text" id="search-input" placeholder="Search country...">
+        <button id="search-btn">Search</button>
+        <button id="sort-btn">Sort A-Z</button>
+        <select id="continent-filter">
+            <option value="All">All Continents</option>
+            <option value="Africa">Africa</option>
+            <option value="Americas">Americas</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+        <button id="pop-sort-btn">Sort Population</button>
+    </div>
+
+    <div id="detail-box" style="display:none; border: 2px solid white; padding: 10px; margin-bottom: 20px;">
+        <h2 id="country-name"></h2>
+        <p id="country-info"></p>
+        <button id="set-dream-btn" style="background: #27ae60; margin-right: 10px; color: white; padding: 8px; border: none; border-radius: 5px; cursor: pointer;">Set as Dream Destination</button>
+        <button id="close-btn">Close Info</button>
+    </div>
+
+
+    <div id="list">Loading countries...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
