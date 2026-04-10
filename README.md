@@ -1,4 +1,6 @@
-# WorldLens-Country-Explorer
+# 🌍 Countries Explorer
+
+🔗 **Live Demo:** [world-lens-country-explorer-project.vercel.app](https://world-lens-country-explorer-project.vercel.app/)
 
 A frontend web application that lets you explore information about every country in the world — search, filter, sort, and build your personal travel bucket list.
 
@@ -117,11 +119,10 @@ No API key is required.
 |---|---|
 | HTML | App structure |
 | CSS | Styling and layout |
-| JavaScript | All logic, DOM manipulation, API calls |
+| Vanilla JavaScript | All logic, DOM manipulation, API calls |
 | REST Countries API | Country data source |
 
 ---
-
 
 ## 📄 License
 
