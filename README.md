@@ -122,16 +122,6 @@ No API key is required.
 
 ---
 
-## 🔮 Possible Improvements
-
-- Add a map view using Leaflet.js or Google Maps
-- Show currency, languages, and timezone in the detail popup
-- Persist the Dream List using `localStorage`
-- Add a loading spinner while data is being fetched
-- Make the UI responsive for mobile screens
-- Add flag-based country guessing game using the existing data
-
----
 
 ## 📄 License
 
