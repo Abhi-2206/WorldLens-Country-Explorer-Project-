@@ -89,7 +89,7 @@ No build tools or dependencies required. Just open `index.html` in your browser.
 
 ```bash
 # Clone or download the project
-git clone https://github.com/your-username/countries-explorer.git
+git clone https://github.com/Abhi-2206/WorldLens-Country-Explorer-Project-.git
 
 # Open in browser
 open index.html
